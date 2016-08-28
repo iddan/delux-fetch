@@ -1,0 +1,32 @@
+{
+    "name": "delux-fetch",
+    "version": "v1.0.0",
+    "description": "Fetch middleware for Delux",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:aniddan/delux-fetch.git"
+    },
+    "keywords": [
+        "state",
+        "manager",
+        "immutable",
+        "delux",
+        "fetch",
+        "ajax",
+        "redux",
+        "flux"
+    ],
+    "scripts": {
+        "test": "node test.js"
+    },
+    "author": "Iddan Aharonson <mail@iddan.co> (http://iddan.co)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aniddan/delux-fetch/issues"
+    },
+    "homepage": "https://github.com/aniddan/delux-fetch",
+    "dependencies": {
+        "es6-promise": "3.2.1"
+    }
+}
