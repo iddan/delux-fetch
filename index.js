@@ -9,6 +9,10 @@ module.exports = function (action) {
             url = settings.url;
         }
         return fetch(url, settings)
-        .then(response => Object.assign(action.payload, {response}));
+        .then(response => Object.assign(action.payload, {response}))
+        .catch(error => Object.assign(action, {
+            payload: error,
+            error: true
+        }));
     }
 };

@@ -1,6 +1,6 @@
 {
     "name": "delux-fetch",
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "description": "Fetch middleware for Delux",
     "main": "index.js",
     "repository": {
@@ -25,5 +25,9 @@
     "bugs": {
         "url": "https://github.com/aniddan/delux-fetch/issues"
     },
-    "homepage": "https://github.com/aniddan/delux-fetch"
+    "homepage": "https://github.com/aniddan/delux-fetch",
+    "devDependencies": {
+        "isomorphic-fetch": "",
+        "delux": ""
+    }
 }
